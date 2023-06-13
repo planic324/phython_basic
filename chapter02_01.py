@@ -30,3 +30,36 @@ print()
 print('%s %s' % ('one', 'two'))
 print('{} {}'.format('one', 'two'))
 print('{1} {0}'.format('one', 'two'))
+
+print()
+
+#  %s
+print('%10s' % ('nice'))
+print('{:>10}'.format('nice'))
+
+print('%-10s' % ('nice'))
+print('{:10}'.format('nice'))
+
+print('{:_>10}'.format('nice'))
+print('{:^10}'.format('nice'))
+
+print('{:.5s}'.format('nice'))
+print('{:.5s}'.format('asdfhjaksdhf')) # 5자리 수 다음부터 잘려라
+
+# %d
+print('%d %d' % (1,2))
+print('{} {}'.format(1,2))
+
+print('%4d' % (42))
+print('{:4d}'.format(42))
+
+print()
+
+# %f
+print('%f' % (3.1123123441234))
+print('{:f}'.format(3.12345123))
+print('%06.2f' % (3.11235412355123))
+print('{:06.2f}'.format(3.4123512315))
+
+print()
+
